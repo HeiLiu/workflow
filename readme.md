@@ -16,6 +16,8 @@ babel 编译js
 还有一些没有的 如：Obejct.assign() promise  
 `plugins`
 - npm 工作流管理  
+添加scripts  
+"test": "npm-run-all --parallel lint:js mocha"  
 ```
 项目构建的基本流程
     npm run dev
